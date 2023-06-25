@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using VoucherService.Domain.SeedWork;
 
 namespace VoucherService.Domain.VoucherAggregate
 {
-    public class Address
+    public class Address : ValueObject
     {
-        public String Street { get; private set; }
-        public String City { get; private set; }
-        public String State { get; private set; }
-        public String Country { get; private set; }
-        public String ZipCode { get; private set; }
+        public string Street { get; private set; }
+        public string City { get; private set; }
+        public string State { get; private set; }
+        public string Country { get; private set; }
+        public string ZipCode { get; private set; }
 
         public Address() { }
 

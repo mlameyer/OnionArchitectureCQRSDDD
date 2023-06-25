@@ -1,12 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace VoucherService.Domain.SeedWork
 {
-    class Entity
+    public abstract class Entity
     {
+        Guid _Id;
+        
+        public virtual Guid Id
+        {
+            get
+            {
+                return _Id;
+            }
+            protected set
+            {
+                _Id = value;
+            }
+        }
     }
 }
