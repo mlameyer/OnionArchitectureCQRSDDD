@@ -1,4 +1,5 @@
-﻿using VoucherService.Domain.SeedWork;
+﻿using System.Collections.Generic;
+using VoucherService.Domain.SeedWork;
 
 namespace VoucherService.Domain.VoucherAggregate
 {
@@ -19,6 +20,15 @@ namespace VoucherService.Domain.VoucherAggregate
             State = state;
             Country = country;
             ZipCode = zipcode;
+        }
+
+        protected override IEnumerable<object> GetEqualityComponents()
+        {
+            yield return Street;
+            yield return City;
+            yield return State;
+            yield return Country;
+            yield return ZipCode;
         }
     }
 }

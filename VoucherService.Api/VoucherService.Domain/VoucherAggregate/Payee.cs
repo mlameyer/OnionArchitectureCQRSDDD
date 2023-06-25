@@ -1,4 +1,5 @@
-﻿using VoucherService.Domain.SeedWork;
+﻿using System.Collections.Generic;
+using VoucherService.Domain.SeedWork;
 
 namespace VoucherService.Domain.VoucherAggregate
 {
@@ -19,5 +20,11 @@ namespace VoucherService.Domain.VoucherAggregate
             LastName = lastname;
         }
 
+        protected override IEnumerable<object> GetEqualityComponents()
+        {
+            yield return CompanyName;
+            yield return FirstName;
+            yield return LastName;
+        }
     }
 }
