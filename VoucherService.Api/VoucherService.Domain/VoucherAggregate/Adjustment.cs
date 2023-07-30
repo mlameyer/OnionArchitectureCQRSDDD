@@ -5,19 +5,20 @@ namespace VoucherService.Domain.VoucherAggregate
 {
     public abstract class Adjustment : Entity
     {
-        private Guid _id;
+        protected Guid _id { get; init; }
 
-        public DateTime AdjustmentDate { get; private set; }
+        protected DateTime AdjustmentDate { get; private set; }
 
-        public AdjustmentCode AdjustmentCode { get; private set; }
+        protected AdjustmentCode AdjustmentCode { get; private set; }
 
-        public AdjustmentType AdjustmentType { get; private set; }
+        protected AdjustmentType AdjustmentType { get; private set; }
 
-        private decimal _amount;
+        protected decimal _amount { get; private set; }
 
         protected Adjustment()
         {
             _id = Guid.NewGuid();
+            AdjustmentDate = DateTime.UtcNow;
             AdjustmentCode = new AdjustmentCode();
             AdjustmentType = new AdjustmentType();
         }
@@ -29,28 +30,7 @@ namespace VoucherService.Domain.VoucherAggregate
             _amount = amount;
         }
 
-        public abstract void ApplyAdjustment();
-        //{
-            //decimal deltaAmount;
-            //decimal deltaBalance;
+        public abstract decimal CalculateAdjustment(decimal amount);
 
-            //AdjustmentDate = DateTime.UtcNow;
-            //AdjustmentCode = adjustmentCode;
-            //AdjustmentType = adjustmentType;
-
-            //if (AdjustmentType.CostAdjustment.Equals(adjustmentType))
-            //{
-            //    deltaAmount = adjustmentAmount;
-            //    deltaBalance = adjustmentAmount;
-            //}
-            //else if ((AdjustmentType.VoucherAdjustment.Equals(adjustmentType)))
-            //{
-            //    deltaBalance = currentBalance * (adjustmentAmount / 100);
-            //}
-            //else
-            //{
-            //    throw new ArgumentException("Unknown AdjustmentType. Cannot perform adjustment");
-            //}
-        //}
     }
 }

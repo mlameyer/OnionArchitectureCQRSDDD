@@ -10,3 +10,15 @@ C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherSe
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\refint\VoucherService.Infrastructure.dll
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.pdb
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\ref\VoucherService.Infrastructure.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.deps.json
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.pdb
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.csproj.AssemblyReference.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.AssemblyInfoInputs.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.AssemblyInfo.cs
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\refint\VoucherService.Infrastructure.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.pdb
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\ref\VoucherService.Infrastructure.dll

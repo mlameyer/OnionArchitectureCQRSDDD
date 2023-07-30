@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "VoucherService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/VoucherService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VoucherService.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VoucherService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../VoucherService.Domain/VoucherService.Domain.csproj",
+      "msbuildProject": "../VoucherService.Domain/VoucherService.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "VoucherService.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Matt\\.nuget\\packages\\": {}
+    "C:\\Users\\zuckw\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
+      "projectUniqueName": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
       "projectName": "VoucherService.Application",
-      "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
-      "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\obj\\",
+      "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
+      "packagesPath": "C:\\Users\\zuckw\\.nuget\\packages\\",
+      "outputPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zuckw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
+              "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,26 +79,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

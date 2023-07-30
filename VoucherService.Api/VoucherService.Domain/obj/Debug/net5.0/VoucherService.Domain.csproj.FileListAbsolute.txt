@@ -10,3 +10,15 @@ C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherSe
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\refint\VoucherService.Domain.dll
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.pdb
 C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\ref\VoucherService.Domain.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\bin\Debug\net5.0\VoucherService.Domain.deps.json
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\bin\Debug\net5.0\VoucherService.Domain.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\bin\Debug\net5.0\VoucherService.Domain.pdb
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.csproj.AssemblyReference.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.AssemblyInfoInputs.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.AssemblyInfo.cs
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.csproj.CoreCompileInputs.cache
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\refint\VoucherService.Domain.dll
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\VoucherService.Domain.pdb
+C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Domain\obj\Debug\net5.0\ref\VoucherService.Domain.dll

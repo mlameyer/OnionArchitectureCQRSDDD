@@ -3,13 +3,11 @@
     public class FlatCostAdjustment : Adjustment
     {
         public FlatCostAdjustment(AdjustmentCode adjustmentCode, AdjustmentType adjustmentType, decimal amount) 
-        {
-            //AdjustmentCode = adjustmentCode;
-        }
+            : base(adjustmentCode, adjustmentType, amount) { }
 
-        public override void ApplyAdjustment()
+        public override decimal CalculateAdjustment(decimal costAmount)
         {
-            throw new System.NotImplementedException();
+            return costAmount + _amount;
         }
     }
 }
