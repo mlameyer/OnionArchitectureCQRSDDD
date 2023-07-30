@@ -1,0 +1,12 @@
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.deps.json
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.dll
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\bin\Debug\net5.0\VoucherService.Infrastructure.pdb
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.AssemblyInfo.cs
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.dll
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\refint\VoucherService.Infrastructure.dll
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\VoucherService.Infrastructure.pdb
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Infrastructure\obj\Debug\net5.0\ref\VoucherService.Infrastructure.dll

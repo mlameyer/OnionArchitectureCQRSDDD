@@ -6,6 +6,8 @@ namespace VoucherService.Domain.VoucherAggregate
 {
     public class Voucher : Entity, IAggregateRoot
     {
+        private Guid _id;
+
         private DateTime _VoucherDate;
 
         public string VoucherNumber { get; private set; }
@@ -39,6 +41,7 @@ namespace VoucherService.Domain.VoucherAggregate
 
         protected Voucher()
         {
+            _id = Guid.NewGuid();
             _costItems = new List<Cost>();
             _adjustmentItems = new List<Adjustment>();
             _paymentItems = new List<Payment>();

@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace VoucherService.Domain.VoucherAggregate
+﻿namespace VoucherService.Domain.VoucherAggregate
 {
     public enum AdjustmentType
     {
-        AmountAndBalance,
-        BalanceOnly
+        CostAdjustment,
+        VoucherAdjustment
     }
 }
