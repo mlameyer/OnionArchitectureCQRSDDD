@@ -7,6 +7,5 @@ namespace VoucherService.Domain
         FlatCostAdjustment flatCostAdjustment = new FlatCostAdjustment(AdjustmentCode.Flat_Amount, AdjustmentType.CostAdjustment, 10);
         Cost newCost = new Cost("cost", 100, 100, false);
 
-
     }
 }
