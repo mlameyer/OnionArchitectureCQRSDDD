@@ -327,19 +327,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zuckw\\.nuget\\packages\\": {}
+    "C:\\Users\\Matt\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\VoucherService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\VoucherService.Api.csproj",
       "projectName": "VoucherService.Api",
-      "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\VoucherService.Api.csproj",
-      "packagesPath": "C:\\Users\\zuckw\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\obj\\",
+      "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\VoucherService.Api.csproj",
+      "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zuckw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -347,15 +347,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
-              "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj"
+            "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj"
             }
           }
         }
@@ -398,7 +398,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
