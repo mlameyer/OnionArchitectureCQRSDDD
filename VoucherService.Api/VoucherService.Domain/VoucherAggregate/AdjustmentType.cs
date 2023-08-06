@@ -2,7 +2,8 @@
 {
     public enum AdjustmentType
     {
-        CostAdjustment,
+        CostPriceAdjustment,
+        CostQuantityAdjustment,
         VoucherAdjustment
     }
 }
