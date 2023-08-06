@@ -5,25 +5,12 @@ namespace VoucherService.Domain.VoucherAggregate
 {
     public class Adjustment : Entity
     {
-<<<<<<< Updated upstream
-        protected Guid _id { get; init; }
-
-        protected DateTime AdjustmentDate { get; private set; }
-=======
         public DateTime AdjustmentDate { get; private set; }
->>>>>>> Stashed changes
 
-        protected AdjustmentCode AdjustmentCode { get; private set; }
+        public AdjustmentCode AdjustmentCode { get; private set; }
 
-        protected AdjustmentType AdjustmentType { get; private set; }
+        public AdjustmentType AdjustmentType { get; private set; }
 
-<<<<<<< Updated upstream
-        protected decimal _amount { get; private set; }
-
-        protected Adjustment()
-        {
-            _id = Guid.NewGuid();
-=======
         public int AdjustmentSequence { get; private set; }
 
         public decimal ComputeAmount { get; private set; }
@@ -33,7 +20,6 @@ namespace VoucherService.Domain.VoucherAggregate
         protected Adjustment()
         {
             Id = Guid.NewGuid();
->>>>>>> Stashed changes
             AdjustmentDate = DateTime.UtcNow;
             AdjustmentCode = new AdjustmentCode();
             AdjustmentType = new AdjustmentType();
@@ -53,11 +39,5 @@ namespace VoucherService.Domain.VoucherAggregate
         {
             AdjustmentSequence = sequence;
         }
-<<<<<<< Updated upstream
-
-        public abstract decimal CalculateAdjustment(decimal amount);
-
-=======
->>>>>>> Stashed changes
     }
 }

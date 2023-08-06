@@ -1,26 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< Updated upstream
-=======
 using System.Linq;
->>>>>>> Stashed changes
 using VoucherService.Domain.SeedWork;
 
 namespace VoucherService.Domain.VoucherAggregate
 {
     public class Cost : Entity
     {
-<<<<<<< Updated upstream
-        public DateTime? AddedDateTime { get; private init; }
-        public string ItemDescription { get; private set; }
-        public decimal UnitAmount { get; private set; }
-        public decimal UnitQuantity { get; private set; }
-        public bool IsTax { get; private set; }
-
-        public List<Adjustment> adjustments { get; private set; }
-
-        public static Cost NewCost()
-=======
         public string CostCode { get; private set; }
 
         public DateTime? CreatedDateTime { get; private set; }
@@ -39,7 +25,6 @@ namespace VoucherService.Domain.VoucherAggregate
         public IReadOnlyCollection<Adjustment> Adjustments => adjustments;
 
         protected Cost() 
->>>>>>> Stashed changes
         {
             adjustments = new List<Adjustment>();
         }
@@ -54,31 +39,6 @@ namespace VoucherService.Domain.VoucherAggregate
             Quantity = quantity;
             IsTax = isTax;
         }
-
-<<<<<<< Updated upstream
-        public void AddAdjustment(Adjustment adjustment)
-        {
-
-            if (adjustment.CalculateAdjustment(GetCostTotal()) < 0) 
-            {
-                throw new ArgumentException("Can't adjust a cost lower than 0");
-            }
-
-            adjustments.Add(adjustment);
-
-        }
-
-        public decimal GetCostTotal() 
-        { 
-            decimal total = UnitAmount * UnitQuantity;
-
-            foreach (Adjustment adjustment in adjustments) 
-            {
-                total += adjustment.CalculateAdjustment(total);
-            }
-
-            return total; 
-=======
         public decimal GetCostAmount() 
         {
             decimal newPrice = Price + adjustments.Where(x => x.AdjustmentType.Equals(AdjustmentType.CostPriceAdjustment)).Sum(x => x.Delta);
@@ -115,7 +75,6 @@ namespace VoucherService.Domain.VoucherAggregate
             adjustment.SetAdjustmentSequence( adjustments.Count + 1 );
 
             adjustments.Add(adjustment);
->>>>>>> Stashed changes
         }
     }
 }

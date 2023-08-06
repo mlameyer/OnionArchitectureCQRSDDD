@@ -118,3 +118,5 @@ C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\obj\Deb
 C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\obj\Debug\net6.0\ref\VoucherService.Api.dll
 C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\bin\Debug\net6.0\VoucherService.Domain.dll
 C:\github\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\bin\Debug\net6.0\VoucherService.Domain.pdb
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\bin\Debug\net6.0\VoucherService.Domain.dll
+C:\Users\Matt\source\repos\OnionArchitectureCQRSDDD\VoucherService.Api\VoucherService.Api\bin\Debug\net6.0\VoucherService.Domain.pdb
