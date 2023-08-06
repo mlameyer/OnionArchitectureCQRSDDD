@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj": {}
+    "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj": {
+    "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj",
         "projectName": "VoucherService.Infrastructure",
-        "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\zuckw\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\VoucherService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zuckw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +50,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

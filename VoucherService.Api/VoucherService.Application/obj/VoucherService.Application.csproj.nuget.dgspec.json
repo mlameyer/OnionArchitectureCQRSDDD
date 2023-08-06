@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj": {}
+    "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj": {}
   },
   "projects": {
-    "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj": {
+    "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
         "projectName": "VoucherService.Application",
-        "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
-        "packagesPath": "C:\\Users\\zuckw\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
+        "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zuckw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
-                "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj"
+              "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj"
               }
             }
           }
@@ -54,26 +54,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
+    "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj",
         "projectName": "VoucherService.Domain",
-        "projectPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj",
-        "packagesPath": "C:\\Users\\zuckw\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\VoucherService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zuckw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,12 +123,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

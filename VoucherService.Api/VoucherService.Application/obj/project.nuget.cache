@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CK8ipIidHWnD/Opaxy///A56lG6e+yrLjeB7vNA0JNr+mDF5llTrVcx79BemrsgTZ2l2AJh2A/5QpGDrFpndBg==",
+  "dgSpecHash": "XHTEsmkASjONnMQBOotpnIzoi+9VqyBlUATBli3YMxXVVaYdxf032FinWxFalGD+dVVnKo9jPIbcpvYw921vpg==",
   "success": true,
-  "projectFilePath": "C:\\github\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Matt\\source\\repos\\OnionArchitectureCQRSDDD\\VoucherService.Api\\VoucherService.Application\\VoucherService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
