@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TjI6WUGKiSKoN2q+BQdPVhHxv1HX2hCFEU4rrpuRt6g=",
+  "Source": "VoucherService.Api",
+  "BasePath": "_content/VoucherService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
